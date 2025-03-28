@@ -1,5 +1,6 @@
 import React from "react";
 import Sidebar from "../../components/sidebar/sidebar";
+import Option from "../../components/option/option";
 import './home.css'
 
 export default function Home() {
@@ -11,7 +12,6 @@ export default function Home() {
                 <Sidebar />
             </div>
             <div className="container-main">
-                <p>teste</p>
             </div>
         </div>
     </>

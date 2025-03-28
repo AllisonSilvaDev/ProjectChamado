@@ -9,7 +9,9 @@ export default function Sidebar() {
             <h3>Sistema Chamado</h3>
         </div>
         <ul className="sidebar-menu">
-            <Option />
+            <Option texto={"texto"}/>
+            <Option texto={"texto2"}/>
+            <Option texto={"texto3"}/>
         </ul>
     </div>
   );

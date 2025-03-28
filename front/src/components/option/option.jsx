@@ -1,11 +1,13 @@
 import React from "react";
 import './option.css'
 
-export default function Option(){
+export default function Option({ texto }){
     return(
         <>
             <div className="option">
-                <a href="">Ordens de Serviço</a>
+
+                <a href="">{texto}</a>
+                
             </div>
         </>
     )
